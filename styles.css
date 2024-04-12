@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+}
+
+.post{
+    width: 250px;   
+    background-color: white;  
+}
+
+.post-header{
+    display: flex;
+    flex-direction: row;
+    padding-top: 4px ; 
+}
+
+.post-body{
+    display:flex;
+    flex-direction: column;
+    width: auto;
+    padding: 0 5px 5px 5px;
+}
+
+.body-icons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.icon{
+    margin: 2px;    
+}
+
+.icon-right{
+    margin: 6px ;
+    margin-left: auto;
+}
